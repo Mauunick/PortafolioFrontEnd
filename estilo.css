@@ -40,29 +40,44 @@
 
     border: 5px inset indigo;
     border-radius: 40px;
+    box-shadow: 2px 5px 10px black;
 }
 
-aside{
+.menu{
+    list-style-type: none;
+    padding: 0;
+    background-color: darkgoldenrod;
+    width: 955px;
+    max-width: 1000px;
+    
     position: relative;
-    display: inline-block;
-}
-li{
-    display: inline-block;
+    top: -130px;
+    left: 300px;
+
+    border: 5px inset goldenrod;
+    border-radius: 10px;
+    box-shadow: 2px 5px 10px black;
 }
 
-#lista{
-    display: inline-block;
-    position: relative;
+.menu li a{
+text-decoration: none;
+color: white;
+padding: 20px;
+display: block;
+}
 
-    background-color: blueviolet;
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover{
+    background: saddlebrown;
 }
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-.content{
-    position: absolute;
-    height: 100vh;
-}
+
 
 
 
